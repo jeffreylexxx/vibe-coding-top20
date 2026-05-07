@@ -1,0 +1,1281 @@
+[
+  {
+    "id": "opencode",
+    "name": "OpenCode",
+    "vendor": "Anomaly / SST",
+    "type": "终端 Agent",
+    "status": "开源高热",
+    "officialUrl": "https://opencode.ai",
+    "color": "#2563eb",
+    "description": "开源终端编程 Agent，强调可组合、可审计、适合开发者把不同模型接入同一套工作流。",
+    "pricing": "开源 / BYOK",
+    "tags": [
+      "CLI",
+      "Open Source",
+      "BYOK",
+      "Agent"
+    ],
+    "sources": {
+      "githubRepo": "anomalyco/opencode",
+      "redditQuery": "opencode AI coding agent",
+      "subreddits": [
+        "LocalLLaMA",
+        "artificial",
+        "programming"
+      ]
+    },
+    "live": {
+      "githubStars": 155921,
+      "githubForks": 18082,
+      "openIssues": 6349,
+      "redditSentiment": 82,
+      "redditMentions": 28,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.192Z"
+    },
+    "dimensions": {
+      "intelligence": 88,
+      "workflow": 92,
+      "cost": 94,
+      "context": 88,
+      "safety": 84,
+      "community": 93
+    }
+  },
+  {
+    "id": "gemini-cli",
+    "name": "Gemini CLI",
+    "vendor": "Google",
+    "type": "终端 Agent",
+    "status": "官方开源",
+    "officialUrl": "https://github.com/google-gemini/gemini-cli",
+    "color": "#0ea5e9",
+    "description": "Google 官方开源 CLI，把 Gemini 的长上下文能力直接带进终端，适合仓库级理解与自动化任务。",
+    "pricing": "免费额度 / API 计费",
+    "tags": [
+      "CLI",
+      "Open Source",
+      "Long Context",
+      "Google"
+    ],
+    "sources": {
+      "githubRepo": "google-gemini/gemini-cli",
+      "redditQuery": "Gemini CLI coding agent",
+      "subreddits": [
+        "LocalLLaMA",
+        "artificial",
+        "GoogleGemini"
+      ]
+    },
+    "live": {
+      "githubStars": 103285,
+      "githubForks": 13519,
+      "openIssues": 2464,
+      "redditSentiment": 84,
+      "redditMentions": 34,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.203Z"
+    },
+    "dimensions": {
+      "intelligence": 88,
+      "workflow": 86,
+      "cost": 90,
+      "context": 96,
+      "safety": 82,
+      "community": 90
+    }
+  },
+  {
+    "id": "openai-codex",
+    "name": "OpenAI Codex",
+    "vendor": "OpenAI",
+    "type": "终端 / 桌面 Agent",
+    "status": "官方开源",
+    "officialUrl": "https://github.com/openai/codex",
+    "color": "#10b981",
+    "description": "OpenAI 官方轻量编程 Agent，可在本地终端读写仓库并执行任务，适合 ChatGPT 与本地代码工作流衔接。",
+    "pricing": "订阅 / API 计费",
+    "tags": [
+      "CLI",
+      "Open Source",
+      "Agent",
+      "OpenAI"
+    ],
+    "sources": {
+      "githubRepo": "openai/codex",
+      "redditQuery": "OpenAI Codex coding agent",
+      "subreddits": [
+        "OpenAI",
+        "ChatGPTCoding",
+        "programming"
+      ]
+    },
+    "live": {
+      "githubStars": 80450,
+      "githubForks": 11601,
+      "openIssues": 3854,
+      "redditSentiment": 86,
+      "redditMentions": 38,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.210Z"
+    },
+    "dimensions": {
+      "intelligence": 93,
+      "workflow": 89,
+      "cost": 78,
+      "context": 91,
+      "safety": 88,
+      "community": 92
+    }
+  },
+  {
+    "id": "cline",
+    "name": "Cline",
+    "vendor": "Cline",
+    "type": "VS Code Agent",
+    "status": "开源成熟",
+    "officialUrl": "https://github.com/cline/cline",
+    "color": "#7c3aed",
+    "description": "VS Code 内的自主编程 Agent，可编辑文件、运行命令、打开浏览器，并在关键动作前请求用户确认。",
+    "pricing": "开源 / BYOK",
+    "tags": [
+      "VS Code",
+      "Open Source",
+      "BYOK",
+      "Browser Use"
+    ],
+    "sources": {
+      "githubRepo": "cline/cline",
+      "openVsx": {
+        "namespace": "saoudrizwan",
+        "extension": "claude-dev"
+      },
+      "vsMarketplace": {
+        "publisher": "saoudrizwan",
+        "extension": "claude-dev"
+      },
+      "redditQuery": "Cline VS Code AI coding agent",
+      "subreddits": [
+        "CLine",
+        "VisualStudioCode",
+        "LocalLLaMA"
+      ]
+    },
+    "live": {
+      "githubStars": 61441,
+      "githubForks": 6367,
+      "openIssues": 797,
+      "redditSentiment": 85,
+      "redditMentions": 46,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 4.6,
+      "updatedAt": "2026-05-07T04:26:49.281Z"
+    },
+    "dimensions": {
+      "intelligence": 86,
+      "workflow": 87,
+      "cost": 92,
+      "context": 84,
+      "safety": 82,
+      "community": 91
+    }
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "vendor": "Anysphere",
+    "type": "桌面 IDE",
+    "status": "商业主流",
+    "officialUrl": "https://cursor.com",
+    "color": "#111827",
+    "description": "AI 原生编辑器，主打代码库索引、Agent 模式、多文件编辑和日常开发补全体验。",
+    "pricing": "订阅制",
+    "tags": [
+      "IDE",
+      "Agent",
+      "Codebase Index",
+      "Proprietary"
+    ],
+    "sources": {
+      "redditQuery": "Cursor AI editor coding agent",
+      "subreddits": [
+        "Cursor",
+        "VisualStudioCode",
+        "programming"
+      ]
+    },
+    "live": {
+      "githubStars": 0,
+      "githubForks": 0,
+      "openIssues": 0,
+      "redditSentiment": 83,
+      "redditMentions": 58,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.296Z"
+    },
+    "dimensions": {
+      "intelligence": 91,
+      "workflow": 92,
+      "cost": 70,
+      "context": 91,
+      "safety": 80,
+      "community": 89
+    }
+  },
+  {
+    "id": "aider",
+    "name": "Aider",
+    "vendor": "Aider AI",
+    "type": "终端结对编程",
+    "status": "开源经典",
+    "officialUrl": "https://aider.chat",
+    "color": "#dc2626",
+    "description": "以 Git 为核心的终端结对编程工具，擅长小步提交、补丁审阅和多模型 BYOK。",
+    "pricing": "开源 / BYOK",
+    "tags": [
+      "CLI",
+      "Open Source",
+      "Git",
+      "BYOK"
+    ],
+    "sources": {
+      "githubRepo": "Aider-AI/aider",
+      "redditQuery": "aider AI pair programming",
+      "subreddits": [
+        "LocalLLaMA",
+        "programming",
+        "OpenAI"
+      ]
+    },
+    "live": {
+      "githubStars": 44428,
+      "githubForks": 4364,
+      "openIssues": 1525,
+      "redditSentiment": 86,
+      "redditMentions": 31,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.307Z"
+    },
+    "dimensions": {
+      "intelligence": 85,
+      "workflow": 82,
+      "cost": 94,
+      "context": 84,
+      "safety": 86,
+      "community": 88
+    }
+  },
+  {
+    "id": "zed",
+    "name": "Zed",
+    "vendor": "Zed Industries",
+    "type": "桌面 IDE",
+    "status": "高速编辑器",
+    "officialUrl": "https://zed.dev",
+    "color": "#f97316",
+    "description": "高性能协作编辑器，内置 AI 面板与 Agent 能力，适合重视编辑速度和多人协作的团队。",
+    "pricing": "免费 / 订阅",
+    "tags": [
+      "IDE",
+      "Collaboration",
+      "Open Source",
+      "Agent Panel"
+    ],
+    "sources": {
+      "githubRepo": "zed-industries/zed",
+      "redditQuery": "Zed editor AI coding assistant",
+      "subreddits": [
+        "ZedEditor",
+        "programming",
+        "rust"
+      ]
+    },
+    "live": {
+      "githubStars": 64000,
+      "githubForks": 4300,
+      "openIssues": 2200,
+      "redditSentiment": 82,
+      "redditMentions": 22,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.340Z"
+    },
+    "dimensions": {
+      "intelligence": 80,
+      "workflow": 91,
+      "cost": 86,
+      "context": 78,
+      "safety": 84,
+      "community": 88
+    }
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "vendor": "Codeium / Windsurf",
+    "type": "桌面 IDE",
+    "status": "Agent IDE",
+    "officialUrl": "https://windsurf.com",
+    "color": "#14b8a6",
+    "description": "强调 Flow 与 Cascade 的 AI IDE，适合把编辑、检索、命令执行串成连续开发工作流。",
+    "pricing": "免费额度 / 订阅",
+    "tags": [
+      "IDE",
+      "Agent",
+      "Cascade",
+      "Proprietary"
+    ],
+    "sources": {
+      "redditQuery": "Windsurf AI IDE Cascade coding",
+      "subreddits": [
+        "Windsurf",
+        "VisualStudioCode",
+        "programming"
+      ]
+    },
+    "live": {
+      "githubStars": 0,
+      "githubForks": 0,
+      "openIssues": 0,
+      "redditSentiment": 80,
+      "redditMentions": 36,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.362Z"
+    },
+    "dimensions": {
+      "intelligence": 86,
+      "workflow": 90,
+      "cost": 77,
+      "context": 88,
+      "safety": 79,
+      "community": 83
+    }
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "vendor": "GitHub / Microsoft",
+    "type": "IDE 插件 / Agent",
+    "status": "企业标配",
+    "officialUrl": "https://github.com/features/copilot",
+    "color": "#6366f1",
+    "description": "覆盖 VS Code、JetBrains、Visual Studio 等生态，企业管理、安全策略和代码补全体验成熟。",
+    "pricing": "订阅制",
+    "tags": [
+      "VS Code",
+      "JetBrains",
+      "Enterprise",
+      "Agent"
+    ],
+    "sources": {
+      "vsMarketplace": {
+        "publisher": "GitHub",
+        "extension": "copilot"
+      },
+      "redditQuery": "GitHub Copilot coding agent",
+      "subreddits": [
+        "github",
+        "VisualStudioCode",
+        "programming"
+      ]
+    },
+    "live": {
+      "githubStars": 0,
+      "githubForks": 0,
+      "openIssues": 0,
+      "redditSentiment": 74,
+      "redditMentions": 55,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 4.5,
+      "updatedAt": "2026-05-07T04:26:49.377Z"
+    },
+    "dimensions": {
+      "intelligence": 86,
+      "workflow": 84,
+      "cost": 72,
+      "context": 84,
+      "safety": 92,
+      "community": 86
+    }
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "vendor": "Anthropic",
+    "type": "终端 Agent",
+    "status": "强推理",
+    "officialUrl": "https://docs.anthropic.com/en/docs/claude-code",
+    "color": "#a16207",
+    "description": "Anthropic 官方 CLI Agent，强项是复杂代码推理、调试、多文件修改和命令行内自主推进。",
+    "pricing": "订阅 / API 计费",
+    "tags": [
+      "CLI",
+      "Agent",
+      "Claude",
+      "Proprietary"
+    ],
+    "sources": {
+      "redditQuery": "Claude Code coding agent",
+      "subreddits": [
+        "ClaudeAI",
+        "LocalLLaMA",
+        "programming"
+      ]
+    },
+    "live": {
+      "githubStars": 0,
+      "githubForks": 0,
+      "openIssues": 0,
+      "redditSentiment": 87,
+      "redditMentions": 42,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.389Z"
+    },
+    "dimensions": {
+      "intelligence": 95,
+      "workflow": 88,
+      "cost": 68,
+      "context": 90,
+      "safety": 83,
+      "community": 84
+    }
+  },
+  {
+    "id": "continue",
+    "name": "Continue",
+    "vendor": "Continue",
+    "type": "VS Code / JetBrains 插件",
+    "status": "开源可控",
+    "officialUrl": "https://continue.dev",
+    "color": "#0891b2",
+    "description": "开源 AI 代码助手，可自定义模型、规则、上下文源，适合团队搭建私有化或本地模型工作流。",
+    "pricing": "开源 / 团队版",
+    "tags": [
+      "VS Code",
+      "JetBrains",
+      "Open Source",
+      "BYOK"
+    ],
+    "sources": {
+      "githubRepo": "continuedev/continue",
+      "openVsx": {
+        "namespace": "Continue",
+        "extension": "continue"
+      },
+      "vsMarketplace": {
+        "publisher": "Continue",
+        "extension": "continue"
+      },
+      "redditQuery": "Continue.dev AI code assistant",
+      "subreddits": [
+        "LocalLLaMA",
+        "VisualStudioCode",
+        "selfhosted"
+      ]
+    },
+    "live": {
+      "githubStars": 30000,
+      "githubForks": 2700,
+      "openIssues": 520,
+      "redditSentiment": 82,
+      "redditMentions": 24,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 4.4,
+      "updatedAt": "2026-05-07T04:26:49.407Z"
+    },
+    "dimensions": {
+      "intelligence": 81,
+      "workflow": 79,
+      "cost": 93,
+      "context": 82,
+      "safety": 89,
+      "community": 86
+    }
+  },
+  {
+    "id": "roo-code",
+    "name": "Roo Code",
+    "vendor": "Roo Code",
+    "type": "VS Code Agent",
+    "status": "Cline 分支生态",
+    "officialUrl": "https://github.com/RooCodeInc/Roo-Code",
+    "color": "#be123c",
+    "description": "从 Cline 生态延展出的 VS Code Agent，主打多模式、MCP 与更细的任务控制。",
+    "pricing": "开源 / BYOK",
+    "tags": [
+      "VS Code",
+      "Open Source",
+      "MCP",
+      "BYOK"
+    ],
+    "sources": {
+      "githubRepo": "RooCodeInc/Roo-Code",
+      "redditQuery": "Roo Code VS Code AI agent",
+      "subreddits": [
+        "VisualStudioCode",
+        "LocalLLaMA",
+        "CLine"
+      ]
+    },
+    "live": {
+      "githubStars": 25000,
+      "githubForks": 2500,
+      "openIssues": 700,
+      "redditSentiment": 80,
+      "redditMentions": 20,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 4.5,
+      "updatedAt": "2026-05-07T04:26:49.414Z"
+    },
+    "dimensions": {
+      "intelligence": 82,
+      "workflow": 84,
+      "cost": 92,
+      "context": 83,
+      "safety": 82,
+      "community": 82
+    }
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "vendor": "Windsurf",
+    "type": "IDE 插件",
+    "status": "免费补全",
+    "officialUrl": "https://codeium.com",
+    "color": "#06b6d4",
+    "description": "覆盖多 IDE 的 AI 补全与聊天工具，个人免费策略有吸引力，商业路线已与 Windsurf 更紧密结合。",
+    "pricing": "个人免费 / 团队订阅",
+    "tags": [
+      "VS Code",
+      "JetBrains",
+      "Autocomplete",
+      "Free Tier"
+    ],
+    "sources": {
+      "openVsx": {
+        "namespace": "Codeium",
+        "extension": "codeium"
+      },
+      "vsMarketplace": {
+        "publisher": "Codeium",
+        "extension": "codeium"
+      },
+      "redditQuery": "Codeium AI coding assistant",
+      "subreddits": [
+        "VisualStudioCode",
+        "programming",
+        "learnprogramming"
+      ]
+    },
+    "live": {
+      "githubStars": 0,
+      "githubForks": 0,
+      "openIssues": 0,
+      "redditSentiment": 76,
+      "redditMentions": 23,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 4.5,
+      "updatedAt": "2026-05-07T04:26:49.421Z"
+    },
+    "dimensions": {
+      "intelligence": 76,
+      "workflow": 83,
+      "cost": 91,
+      "context": 73,
+      "safety": 78,
+      "community": 78
+    }
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "vendor": "Tabnine",
+    "type": "IDE 插件",
+    "status": "企业隐私",
+    "officialUrl": "https://www.tabnine.com",
+    "color": "#16a34a",
+    "description": "老牌 AI 补全工具，强调企业部署、隐私控制、合规和私有代码保护。",
+    "pricing": "免费额度 / 团队订阅",
+    "tags": [
+      "Autocomplete",
+      "Enterprise",
+      "Privacy",
+      "Multi IDE"
+    ],
+    "sources": {
+      "openVsx": {
+        "namespace": "TabNine",
+        "extension": "tabnine-vscode"
+      },
+      "vsMarketplace": {
+        "publisher": "TabNine",
+        "extension": "tabnine-vscode"
+      },
+      "redditQuery": "Tabnine AI code assistant",
+      "subreddits": [
+        "VisualStudioCode",
+        "programming",
+        "learnprogramming"
+      ]
+    },
+    "live": {
+      "githubStars": 0,
+      "githubForks": 0,
+      "openIssues": 0,
+      "redditSentiment": 70,
+      "redditMentions": 18,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 4.2,
+      "updatedAt": "2026-05-07T04:26:49.456Z"
+    },
+    "dimensions": {
+      "intelligence": 73,
+      "workflow": 78,
+      "cost": 78,
+      "context": 68,
+      "safety": 91,
+      "community": 73
+    }
+  },
+  {
+    "id": "amazon-q",
+    "name": "Amazon Q Developer",
+    "vendor": "AWS",
+    "type": "IDE 插件 / 云开发助手",
+    "status": "云端企业",
+    "officialUrl": "https://aws.amazon.com/q/developer/",
+    "color": "#f59e0b",
+    "description": "AWS 官方开发助手，适合云资源、IaC、安全扫描、Java 升级和 AWS 项目维护。",
+    "pricing": "免费额度 / Pro 订阅",
+    "tags": [
+      "AWS",
+      "VS Code",
+      "JetBrains",
+      "Enterprise"
+    ],
+    "sources": {
+      "githubRepo": "aws/aws-toolkit-vscode",
+      "vsMarketplace": {
+        "publisher": "AmazonWebServices",
+        "extension": "amazon-q-vscode"
+      },
+      "redditQuery": "Amazon Q Developer coding assistant",
+      "subreddits": [
+        "aws",
+        "devops",
+        "VisualStudioCode"
+      ]
+    },
+    "live": {
+      "githubStars": 1700,
+      "githubForks": 460,
+      "openIssues": 700,
+      "redditSentiment": 72,
+      "redditMentions": 16,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 4.2,
+      "updatedAt": "2026-05-07T04:26:49.491Z"
+    },
+    "dimensions": {
+      "intelligence": 78,
+      "workflow": 80,
+      "cost": 80,
+      "context": 76,
+      "safety": 92,
+      "community": 77
+    }
+  },
+  {
+    "id": "sourcegraph-cody",
+    "name": "Sourcegraph Cody",
+    "vendor": "Sourcegraph",
+    "type": "IDE 插件 / 企业代码搜索",
+    "status": "大仓库强项",
+    "officialUrl": "https://sourcegraph.com/cody",
+    "color": "#9333ea",
+    "description": "依托 Sourcegraph 代码搜索与上下文能力，适合大型单体仓库、多仓库知识检索和企业代码问答。",
+    "pricing": "免费额度 / 企业版",
+    "tags": [
+      "Code Search",
+      "Enterprise",
+      "Context",
+      "VS Code"
+    ],
+    "sources": {
+      "githubRepo": "sourcegraph/cody-public-snapshot",
+      "openVsx": {
+        "namespace": "sourcegraph",
+        "extension": "cody-ai"
+      },
+      "vsMarketplace": {
+        "publisher": "sourcegraph",
+        "extension": "cody-ai"
+      },
+      "redditQuery": "Sourcegraph Cody AI coding assistant",
+      "subreddits": [
+        "VisualStudioCode",
+        "programming",
+        "devops"
+      ]
+    },
+    "live": {
+      "githubStars": 2200,
+      "githubForks": 240,
+      "openIssues": 0,
+      "redditSentiment": 76,
+      "redditMentions": 14,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 4.3,
+      "updatedAt": "2026-05-07T04:26:49.524Z"
+    },
+    "dimensions": {
+      "intelligence": 78,
+      "workflow": 76,
+      "cost": 80,
+      "context": 92,
+      "safety": 88,
+      "community": 75
+    }
+  },
+  {
+    "id": "qodo-gen",
+    "name": "Qodo Gen",
+    "vendor": "Qodo",
+    "type": "IDE 插件 / 测试生成",
+    "status": "质量工程",
+    "officialUrl": "https://www.qodo.ai",
+    "color": "#059669",
+    "description": "偏质量工程与测试生成的 AI 编程助手，适合单元测试、代码解释、PR 审查和企业团队流程。",
+    "pricing": "免费额度 / 团队订阅",
+    "tags": [
+      "Testing",
+      "PR Review",
+      "Enterprise",
+      "VS Code"
+    ],
+    "sources": {
+      "githubRepo": "qodo-ai/pr-agent",
+      "vsMarketplace": {
+        "publisher": "Codium",
+        "extension": "codium"
+      },
+      "redditQuery": "Qodo Gen CodiumAI coding assistant",
+      "subreddits": [
+        "VisualStudioCode",
+        "programming",
+        "QualityAssurance"
+      ]
+    },
+    "live": {
+      "githubStars": 7900,
+      "githubForks": 920,
+      "openIssues": 210,
+      "redditSentiment": 78,
+      "redditMentions": 10,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 4.4,
+      "updatedAt": "2026-05-07T04:26:49.552Z"
+    },
+    "dimensions": {
+      "intelligence": 79,
+      "workflow": 77,
+      "cost": 79,
+      "context": 76,
+      "safety": 87,
+      "community": 74
+    }
+  },
+  {
+    "id": "jetbrains-junie",
+    "name": "JetBrains Junie",
+    "vendor": "JetBrains",
+    "type": "JetBrains Agent",
+    "status": "IDE 原生",
+    "officialUrl": "https://www.jetbrains.com/junie/",
+    "color": "#ec4899",
+    "description": "JetBrains 官方编程 Agent，优势在 IntelliJ 系列 IDE 的工程语义、重构体验和团队熟悉度。",
+    "pricing": "订阅制",
+    "tags": [
+      "JetBrains",
+      "Agent",
+      "IDE Native",
+      "Enterprise"
+    ],
+    "sources": {
+      "redditQuery": "JetBrains Junie AI coding agent",
+      "subreddits": [
+        "JetBrains",
+        "IntelliJIDEA",
+        "programming"
+      ]
+    },
+    "live": {
+      "githubStars": 0,
+      "githubForks": 0,
+      "openIssues": 0,
+      "redditSentiment": 75,
+      "redditMentions": 12,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.563Z"
+    },
+    "dimensions": {
+      "intelligence": 82,
+      "workflow": 80,
+      "cost": 68,
+      "context": 85,
+      "safety": 87,
+      "community": 74
+    }
+  },
+  {
+    "id": "replit-agent",
+    "name": "Replit Agent",
+    "vendor": "Replit",
+    "type": "云端开发 Agent",
+    "status": "从想法到部署",
+    "officialUrl": "https://replit.com/ai",
+    "color": "#f97316",
+    "description": "云 IDE 内的应用生成与修改 Agent，适合快速做原型、运行服务、部署和协作演示。",
+    "pricing": "订阅 / 用量",
+    "tags": [
+      "Cloud IDE",
+      "Prototype",
+      "Deploy",
+      "Agent"
+    ],
+    "sources": {
+      "redditQuery": "Replit Agent AI coding",
+      "subreddits": [
+        "replit",
+        "webdev",
+        "learnprogramming"
+      ]
+    },
+    "live": {
+      "githubStars": 0,
+      "githubForks": 0,
+      "openIssues": 0,
+      "redditSentiment": 73,
+      "redditMentions": 20,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.566Z"
+    },
+    "dimensions": {
+      "intelligence": 80,
+      "workflow": 86,
+      "cost": 66,
+      "context": 74,
+      "safety": 80,
+      "community": 77
+    }
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "vendor": "Cognition",
+    "type": "云端软件工程 Agent",
+    "status": "自主执行",
+    "officialUrl": "https://devin.ai",
+    "color": "#64748b",
+    "description": "偏完整软件工程任务执行的云端 Agent，适合把 issue、调试、测试、PR 串成更长周期任务。",
+    "pricing": "订阅 / 团队方案",
+    "tags": [
+      "Cloud Agent",
+      "Autonomous",
+      "PR",
+      "Planning"
+    ],
+    "sources": {
+      "redditQuery": "Devin AI software engineer coding agent",
+      "subreddits": [
+        "artificial",
+        "programming",
+        "singularity"
+      ]
+    },
+    "live": {
+      "githubStars": 0,
+      "githubForks": 0,
+      "openIssues": 0,
+      "redditSentiment": 68,
+      "redditMentions": 30,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.573Z"
+    },
+    "dimensions": {
+      "intelligence": 85,
+      "workflow": 78,
+      "cost": 55,
+      "context": 80,
+      "safety": 75,
+      "community": 70
+    }
+  },
+  {
+    "id": "tabby",
+    "name": "Tabby",
+    "vendor": "TabbyML",
+    "type": "自托管补全服务器",
+    "status": "本地私有化",
+    "officialUrl": "https://tabby.tabbyml.com",
+    "color": "#84cc16",
+    "description": "开源自托管 AI 编程助手，适合企业或个人用本地/私有模型搭建补全与聊天能力。",
+    "pricing": "开源 / 企业版",
+    "tags": [
+      "Self Hosted",
+      "Open Source",
+      "Autocomplete",
+      "Privacy"
+    ],
+    "sources": {
+      "githubRepo": "TabbyML/tabby",
+      "openVsx": {
+        "namespace": "TabbyML",
+        "extension": "vscode-tabby"
+      },
+      "redditQuery": "TabbyML Tabby AI coding assistant",
+      "subreddits": [
+        "selfhosted",
+        "LocalLLaMA",
+        "programming"
+      ]
+    },
+    "live": {
+      "githubStars": 25000,
+      "githubForks": 1100,
+      "openIssues": 340,
+      "redditSentiment": 79,
+      "redditMentions": 14,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 4.2,
+      "updatedAt": "2026-05-07T04:26:49.593Z"
+    },
+    "dimensions": {
+      "intelligence": 74,
+      "workflow": 73,
+      "cost": 91,
+      "context": 72,
+      "safety": 94,
+      "community": 80
+    }
+  },
+  {
+    "id": "void",
+    "name": "Void",
+    "vendor": "Void Editor",
+    "type": "开源 AI IDE",
+    "status": "Cursor 替代",
+    "officialUrl": "https://voideditor.com",
+    "color": "#334155",
+    "description": "开源 AI 代码编辑器，定位为 Cursor 替代方案，重视本地控制、BYOK 与透明实现。",
+    "pricing": "开源 / BYOK",
+    "tags": [
+      "IDE",
+      "Open Source",
+      "BYOK",
+      "Cursor Alternative"
+    ],
+    "sources": {
+      "githubRepo": "voideditor/void",
+      "redditQuery": "Void editor AI coding",
+      "subreddits": [
+        "LocalLLaMA",
+        "VisualStudioCode",
+        "programming"
+      ]
+    },
+    "live": {
+      "githubStars": 22000,
+      "githubForks": 1500,
+      "openIssues": 430,
+      "redditSentiment": 78,
+      "redditMentions": 12,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.610Z"
+    },
+    "dimensions": {
+      "intelligence": 77,
+      "workflow": 75,
+      "cost": 92,
+      "context": 76,
+      "safety": 88,
+      "community": 79
+    }
+  },
+  {
+    "id": "pearai",
+    "name": "PearAI",
+    "vendor": "PearAI",
+    "type": "开源 AI IDE",
+    "status": "创业产品",
+    "officialUrl": "https://trypear.ai",
+    "color": "#65a30d",
+    "description": "面向 AI 原生开发体验的编辑器，曾因开源路线引发讨论，适合观察 Cursor 替代生态。",
+    "pricing": "免费 / 订阅",
+    "tags": [
+      "IDE",
+      "Open Source",
+      "Agent",
+      "Startup"
+    ],
+    "sources": {
+      "githubRepo": "trypear/pearai-app",
+      "redditQuery": "PearAI coding assistant",
+      "subreddits": [
+        "programming",
+        "VisualStudioCode",
+        "LocalLLaMA"
+      ]
+    },
+    "live": {
+      "githubStars": 18000,
+      "githubForks": 1100,
+      "openIssues": 300,
+      "redditSentiment": 63,
+      "redditMentions": 13,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.633Z"
+    },
+    "dimensions": {
+      "intelligence": 72,
+      "workflow": 73,
+      "cost": 84,
+      "context": 72,
+      "safety": 73,
+      "community": 68
+    }
+  },
+  {
+    "id": "supermaven",
+    "name": "Supermaven",
+    "vendor": "Supermaven",
+    "type": "高速补全插件",
+    "status": "低延迟补全",
+    "officialUrl": "https://supermaven.com",
+    "color": "#e11d48",
+    "description": "主打超低延迟代码补全和长上下文窗口，适合更偏“流畅补全”而非全自动 Agent 的开发者。",
+    "pricing": "免费额度 / 订阅",
+    "tags": [
+      "Autocomplete",
+      "Low Latency",
+      "VS Code",
+      "JetBrains"
+    ],
+    "sources": {
+      "vsMarketplace": {
+        "publisher": "Supermaven",
+        "extension": "supermaven"
+      },
+      "redditQuery": "Supermaven AI code completion",
+      "subreddits": [
+        "VisualStudioCode",
+        "programming",
+        "learnprogramming"
+      ]
+    },
+    "live": {
+      "githubStars": 0,
+      "githubForks": 0,
+      "openIssues": 0,
+      "redditSentiment": 82,
+      "redditMentions": 16,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 4.6,
+      "updatedAt": "2026-05-07T04:26:49.650Z"
+    },
+    "dimensions": {
+      "intelligence": 76,
+      "workflow": 90,
+      "cost": 80,
+      "context": 80,
+      "safety": 80,
+      "community": 76
+    }
+  },
+  {
+    "id": "kiro",
+    "name": "Kiro",
+    "vendor": "AWS",
+    "type": "Agent IDE",
+    "status": "规范驱动",
+    "officialUrl": "https://kiro.dev",
+    "color": "#0f766e",
+    "description": "强调 spec-driven development 的 Agent IDE，把需求、设计、任务拆解与代码实现放在同一流程里。",
+    "pricing": "预览 / 订阅",
+    "tags": [
+      "IDE",
+      "Spec Driven",
+      "Agent",
+      "AWS"
+    ],
+    "sources": {
+      "redditQuery": "Kiro AI IDE coding agent",
+      "subreddits": [
+        "programming",
+        "webdev",
+        "aws"
+      ]
+    },
+    "live": {
+      "githubStars": 0,
+      "githubForks": 0,
+      "openIssues": 0,
+      "redditSentiment": 76,
+      "redditMentions": 18,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.657Z"
+    },
+    "dimensions": {
+      "intelligence": 81,
+      "workflow": 84,
+      "cost": 72,
+      "context": 83,
+      "safety": 85,
+      "community": 73
+    }
+  },
+  {
+    "id": "trae",
+    "name": "Trae",
+    "vendor": "ByteDance",
+    "type": "AI IDE",
+    "status": "增长中",
+    "officialUrl": "https://www.trae.ai",
+    "color": "#8b5cf6",
+    "description": "字节系 AI IDE，面向跨模型、项目理解和 Agent 辅助开发，适合关注国内外双生态的用户。",
+    "pricing": "免费额度 / 订阅",
+    "tags": [
+      "IDE",
+      "Agent",
+      "ByteDance",
+      "Multi Model"
+    ],
+    "sources": {
+      "redditQuery": "Trae AI IDE coding",
+      "subreddits": [
+        "programming",
+        "VisualStudioCode",
+        "LocalLLaMA"
+      ]
+    },
+    "live": {
+      "githubStars": 0,
+      "githubForks": 0,
+      "openIssues": 0,
+      "redditSentiment": 70,
+      "redditMentions": 11,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.666Z"
+    },
+    "dimensions": {
+      "intelligence": 78,
+      "workflow": 80,
+      "cost": 82,
+      "context": 78,
+      "safety": 76,
+      "community": 70
+    }
+  },
+  {
+    "id": "augment-code",
+    "name": "Augment Code",
+    "vendor": "Augment",
+    "type": "企业代码助手",
+    "status": "大仓库定位",
+    "officialUrl": "https://www.augmentcode.com",
+    "color": "#1d4ed8",
+    "description": "面向大型代码库的 AI 编程平台，强调深度上下文、团队知识和企业安全治理。",
+    "pricing": "团队 / 企业订阅",
+    "tags": [
+      "Enterprise",
+      "Large Repo",
+      "Context",
+      "Agent"
+    ],
+    "sources": {
+      "redditQuery": "Augment Code AI coding assistant",
+      "subreddits": [
+        "programming",
+        "devops",
+        "VisualStudioCode"
+      ]
+    },
+    "live": {
+      "githubStars": 0,
+      "githubForks": 0,
+      "openIssues": 0,
+      "redditSentiment": 77,
+      "redditMentions": 12,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.670Z"
+    },
+    "dimensions": {
+      "intelligence": 84,
+      "workflow": 82,
+      "cost": 62,
+      "context": 92,
+      "safety": 90,
+      "community": 72
+    }
+  },
+  {
+    "id": "goose",
+    "name": "Goose",
+    "vendor": "Block",
+    "type": "本地 Agent",
+    "status": "开源 Agent",
+    "officialUrl": "https://block.github.io/goose/",
+    "color": "#0284c7",
+    "description": "Block 开源的本地 AI Agent，可连接工具与扩展，适合把代码任务纳入更广义的桌面自动化。",
+    "pricing": "开源 / BYOK",
+    "tags": [
+      "Open Source",
+      "Agent",
+      "Extensions",
+      "BYOK"
+    ],
+    "sources": {
+      "githubRepo": "block/goose",
+      "redditQuery": "Block Goose AI agent coding",
+      "subreddits": [
+        "LocalLLaMA",
+        "programming",
+        "opensource"
+      ]
+    },
+    "live": {
+      "githubStars": 14000,
+      "githubForks": 1100,
+      "openIssues": 300,
+      "redditSentiment": 80,
+      "redditMentions": 10,
+      "marketplaceDownloads": 0,
+      "marketplaceRating": 0,
+      "updatedAt": "2026-05-07T04:26:49.703Z"
+    },
+    "dimensions": {
+      "intelligence": 78,
+      "workflow": 78,
+      "cost": 92,
+      "context": 76,
+      "safety": 84,
+      "community": 78
+    }
+  }
+]
