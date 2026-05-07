@@ -21,19 +21,19 @@ export const DATA_SOURCES = [
     name: 'GitHub API',
     signal: '开源仓库 Stars、Forks、Issue 压力、最近推送',
     url: 'https://docs.github.com/en/rest/repos/repos#get-a-repository',
-    live: true
+    live: false
   },
   {
     name: 'Reddit Public JSON',
     signal: 'r/LocalLLaMA、r/VisualStudioCode、r/artificial 等讨论热度与情绪',
     url: 'https://www.reddit.com/dev/api/',
-    live: true
+    live: false
   },
   {
     name: 'Open VSX API',
     signal: '插件下载量与评分，适合 VS Code / OpenVSX 生态工具',
     url: 'https://open-vsx.org',
-    live: true
+    live: false
   },
   {
     name: 'VS Code Marketplace',
