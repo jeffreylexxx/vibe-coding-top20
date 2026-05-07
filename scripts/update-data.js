@@ -4,6 +4,7 @@ import { RAW_TOOLS_DATA } from '../src/data/tools.js';
 import { analyzeRedditPosts } from '../src/utils/scoring.js';
 
 const SNAPSHOT_PATH = path.resolve('src/data/tools.json');
+const PUBLIC_SNAPSHOT_PATH = path.resolve('public/data/tools.json');
 
 async function fetchJson(url, options) {
   const response = await fetch(url, options);
@@ -15,11 +16,17 @@ async function fetchJson(url, options) {
 
 async function getGithubMetrics(repo) {
   if (!repo) return {};
+  const headers = {
+    Accept: 'application/vnd.github+json',
+    'User-Agent': 'ai-code-showdown-snapshot'
+  };
+
+  if (process.env.GITHUB_TOKEN) {
+    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  }
+
   const data = await fetchJson(`https://api.github.com/repos/${repo}`, {
-    headers: {
-      Accept: 'application/vnd.github+json',
-      'User-Agent': 'ai-code-showdown-snapshot'
-    }
+    headers
   });
 
   return {
@@ -122,8 +129,13 @@ async function main() {
     updated.push(await getToolSnapshot(tool));
   }
 
-  fs.writeFileSync(SNAPSHOT_PATH, `${JSON.stringify(updated, null, 2)}\n`);
+  const payload = `${JSON.stringify(updated, null, 2)}\n`;
+  fs.mkdirSync(path.dirname(SNAPSHOT_PATH), { recursive: true });
+  fs.mkdirSync(path.dirname(PUBLIC_SNAPSHOT_PATH), { recursive: true });
+  fs.writeFileSync(SNAPSHOT_PATH, payload);
+  fs.writeFileSync(PUBLIC_SNAPSHOT_PATH, payload);
   console.log(`Snapshot written to ${SNAPSHOT_PATH}`);
+  console.log(`Public snapshot written to ${PUBLIC_SNAPSHOT_PATH}`);
 }
 
 main().catch((error) => {
