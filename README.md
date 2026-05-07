@@ -5,8 +5,8 @@
 
 ## Live Demo
 
-- **在线演示：** `https://你的用户名.github.io/vibe-coding-top20/`
-- **项目仓库：** `https://github.com/你的用户名/vibe-coding-top20`
+- **在线演示：** `https://jeffreylexxx.github.io/vibe-coding-top20/`
+- **项目仓库：** `https://github.com/jeffreylexxx/vibe-coding-top20`
 
 > 上传到 GitHub Pages 后，把上面两个占位链接替换成你的真实地址即可。
 
