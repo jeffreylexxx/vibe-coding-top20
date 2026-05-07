@@ -6,7 +6,7 @@ import {
   RAW_TOOLS_DATA
 } from './data/tools';
 import TOOLS_SNAPSHOT from './data/tools.json';
-import { calculateScores, compactNumber, enrichToolWithLiveMetrics } from './utils/scoring';
+import { calculateScores, compactNumber } from './utils/scoring';
 
 const sortOptions = [
   { id: 'score', label: '综合排名' },
@@ -195,7 +195,7 @@ export default function App() {
   const [selectedId, setSelectedId] = useState(INITIAL_TOOLS[0].id);
   const [query, setQuery] = useState('');
   const [refreshing, setRefreshing] = useState(false);
-  const [refreshLog, setRefreshLog] = useState('已载入本地快照，正在等待实时刷新。');
+  const [refreshLog, setRefreshLog] = useState('已载入构建时公开数据快照。');
 
   const scoredTools = useMemo(() => calculateScores(rawTools), [rawTools]);
 
@@ -223,15 +223,31 @@ export default function App() {
 
   const refreshMetrics = async () => {
     setRefreshing(true);
-    setRefreshLog('正在拉取 GitHub、Reddit 与 OpenVSX 公开数据。');
+    setRefreshLog('正在读取本站数据快照，避免浏览器跨域与 API 限流错误。');
 
-    const settled = await Promise.allSettled(rawTools.map((tool) => enrichToolWithLiveMetrics(tool)));
-    const nextTools = settled.map((result, index) => (result.status === 'fulfilled' ? result.value : rawTools[index]));
-    const okCount = settled.filter((result) => result.status === 'fulfilled').length;
+    try {
+      const response = await fetch(`${import.meta.env.BASE_URL}data/tools.json?ts=${Date.now()}`, {
+        cache: 'no-store'
+      });
+      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
 
-    setRawTools(nextTools);
-    setRefreshing(false);
-    setRefreshLog(`实时刷新完成：${okCount}/${rawTools.length} 个工具已更新；失败项会继续使用快照数据。`);
+      const snapshot = await response.json();
+      if (!Array.isArray(snapshot) || !snapshot.length) {
+        throw new Error('数据快照为空');
+      }
+
+      setRawTools(snapshot);
+      const newest = snapshot
+        .map((tool) => tool.live?.updatedAt)
+        .filter(Boolean)
+        .sort()
+        .at(-1);
+      setRefreshLog(`已读取公开数据快照：${snapshot.length} 个工具；最近更新时间 ${formatDate(newest)}。`);
+    } catch (error) {
+      setRefreshLog(`快照读取失败，继续使用内置数据：${error.message}`);
+    } finally {
+      setRefreshing(false);
+    }
   };
 
   useEffect(() => {
@@ -266,7 +282,7 @@ export default function App() {
                 disabled={refreshing}
                 className="rounded-lg border border-zinc-950 bg-zinc-950 px-4 py-2 text-sm font-semibold text-white transition hover:bg-zinc-800 disabled:cursor-wait disabled:opacity-60"
               >
-                {refreshing ? '刷新中' : '刷新公开数据'}
+                {refreshing ? '读取中' : '读取数据快照'}
               </button>
               <a
                 href="https://api.github.com"
@@ -423,7 +439,7 @@ export default function App() {
                   <div className="flex items-center justify-between gap-3">
                     <span className="text-sm font-bold text-zinc-950">{source.name}</span>
                     <span className={`rounded px-2 py-0.5 text-[11px] font-semibold ${source.live ? 'bg-emerald-50 text-emerald-700' : 'bg-zinc-100 text-zinc-600'}`}>
-                      {source.live ? '浏览器实时' : '脚本快照'}
+                      {source.live ? '可直连' : '快照抓取'}
                     </span>
                   </div>
                   <p className="mt-1 text-xs leading-5 text-zinc-500">{source.signal}</p>
@@ -435,7 +451,7 @@ export default function App() {
       </main>
 
       <footer className="border-t border-zinc-200 bg-white px-4 py-5 text-center text-xs text-zinc-500">
-        AI Code Showdown · GitHub Pages ready · 公开数据会受 API 限流、跨域策略与社区讨论噪声影响
+        AI Code Showdown · GitHub Pages ready · 数据由脚本或 GitHub Actions 抓取公开来源后生成快照
       </footer>
     </div>
   );
