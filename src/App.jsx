@@ -30,11 +30,17 @@ const INITIAL_TOOLS = Array.isArray(TOOLS_SNAPSHOT) && TOOLS_SNAPSHOT.length ? T
 function formatDate(value) {
   if (!value) return '未刷新';
   return new Intl.DateTimeFormat('zh-CN', {
+    year: 'numeric',
     month: '2-digit',
     day: '2-digit',
     hour: '2-digit',
     minute: '2-digit'
   }).format(new Date(value));
+}
+
+function formatDelta(value) {
+  if (!Number.isFinite(value) || value === 0) return '—';
+  return `${value > 0 ? '+' : ''}${compactNumber(value)}`;
 }
 
 function statusTone(status) {
@@ -177,13 +183,13 @@ function ToolCard({ tool, rank, active, onSelect }) {
         </div>
       </div>
 
-      <SentimentBar value={tool.live?.redditSentiment} />
+      <SentimentBar value={tool.live?.communitySentiment ?? tool.live?.redditSentiment} />
 
       <div className="grid grid-cols-4 gap-3 border-t border-zinc-100 pt-3">
         <Metric label="Stars" value={compactNumber(tool.live?.githubStars)} />
         <Metric label="Forks" value={compactNumber(tool.live?.githubForks)} />
-        <Metric label="Mentions" value={tool.live?.redditMentions || 'N/A'} />
-        <Metric label="更新" value={formatDate(tool.live?.updatedAt)} />
+        <Metric label="近期待讨论" value={tool.live?.communityMentions ?? tool.live?.redditMentions ?? 'N/A'} />
+        <Metric label="Stars 日增量" value={formatDelta(tool.trends?.githubStarsDelta)} />
       </div>
     </button>
   );
@@ -238,7 +244,7 @@ export default function App() {
 
       setRawTools(snapshot);
       const newest = snapshot
-        .map((tool) => tool.live?.updatedAt)
+        .map((tool) => tool.live?.lastSuccessfulUpdateAt || tool.live?.updatedAt)
         .filter(Boolean)
         .sort()
         .at(-1);
@@ -271,7 +277,7 @@ export default function App() {
                 AI 编程工具实时打分排名
               </h1>
               <p className="mt-3 max-w-3xl text-sm leading-6 text-zinc-600 md:text-base">
-                覆盖 OpenAI Codex、Claude Code、Gemini CLI、Cursor、Windsurf、GitHub Copilot、Zed、OpenCode、Cline、Aider、Codeium、Tabnine 等主流工具，用公开指标与本地快照合成排名。
+                每日抓取 GitHub、Reddit、Hacker News、Open VSX 与 VS Code Marketplace 的公开指标，并结合产品能力基线动态生成排名。
               </p>
             </div>
 
@@ -380,7 +386,7 @@ export default function App() {
             </div>
 
             <div className="mt-5">
-              <SentimentBar value={selectedTool.live?.redditSentiment} />
+              <SentimentBar value={selectedTool.live?.communitySentiment ?? selectedTool.live?.redditSentiment} />
             </div>
 
             <div className="mt-5">
@@ -390,14 +396,20 @@ export default function App() {
             <div className="mt-5 grid grid-cols-2 gap-3">
               <Metric label="GitHub Stars" value={compactNumber(selectedTool.live?.githubStars)} />
               <Metric label="Forks" value={compactNumber(selectedTool.live?.githubForks)} />
-              <Metric label="Open Issues" value={compactNumber(selectedTool.live?.openIssues)} />
-              <Metric label="Reddit Mentions" value={selectedTool.live?.redditMentions || 'N/A'} />
+              <Metric label="Stars 日增量" value={formatDelta(selectedTool.trends?.githubStarsDelta)} />
+              <Metric label="近期社区讨论" value={selectedTool.live?.communityMentions ?? selectedTool.live?.redditMentions ?? 'N/A'} />
             </div>
+
+            <p className="mt-4 text-xs leading-5 text-zinc-500">
+              最近成功更新：{formatDate(selectedTool.live?.lastSuccessfulUpdateAt || selectedTool.live?.updatedAt)} · 数据覆盖 {selectedTool.signals?.coverage ?? 0}%
+            </p>
 
             <div className="mt-5 flex flex-wrap gap-2">
               <SourceBadge label="GitHub" status={selectedTool.sourceStatus?.github || (selectedTool.sources?.githubRepo ? 'snapshot' : 'skip')} />
               <SourceBadge label="Reddit" status={selectedTool.sourceStatus?.reddit || 'snapshot'} />
+              <SourceBadge label="Hacker News" status={selectedTool.sourceStatus?.hackerNews || 'snapshot'} />
               <SourceBadge label="OpenVSX" status={selectedTool.sourceStatus?.openVsx || (selectedTool.sources?.openVsx ? 'snapshot' : 'skip')} />
+              <SourceBadge label="VS Marketplace" status={selectedTool.sourceStatus?.vsMarketplace || (selectedTool.sources?.vsMarketplace ? 'snapshot' : 'skip')} />
             </div>
 
             <a
@@ -421,7 +433,7 @@ export default function App() {
               ))}
             </div>
             <p className="mt-4 text-xs leading-5 text-zinc-500">
-              GitHub 与 OpenVSX 使用对数归一化，Reddit 使用英文关键词情绪粗分；商业闭源工具以功能快照和公开口碑为主，避免用缺失 Stars 惩罚成熟产品。
+              综合分由 82% 产品能力维度与 18% 当日公开信号合成；公开信号包含活跃度、热度、评分、近期讨论和日增量。缺失来源不按 0 分处理，避免惩罚闭源产品。
             </p>
           </section>
 
