@@ -2,24 +2,43 @@ name: Update public data snapshot
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-data.yml'
+      - 'scripts/**'
+      - 'src/App.jsx'
+      - 'src/utils/**'
+      - 'src/data/tools.js'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'vite.config.js'
   schedule:
+    # GitHub cron uses UTC. 02:17 UTC = 10:17 China Standard Time.
     - cron: '17 2 * * *'
 
 permissions:
   contents: write
 
+concurrency:
+  group: daily-public-data-snapshot
+  cancel-in-progress: false
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
 
       - name: Install dependencies
@@ -29,6 +48,13 @@ jobs:
         run: npm run update:data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Verify generated snapshot
+        shell: bash
+        run: |
+          node --check scripts/update-data.js
+          node --check src/utils/scoring.js
+          node -e "const fs=require('fs'); const files=['src/data/tools.json','public/data/tools.json']; for (const file of files) { const data=JSON.parse(fs.readFileSync(file,'utf8')); if (!Array.isArray(data) || data.length < 20) throw new Error(file + ' is incomplete'); if (!data.some(t => t.updateSummary?.successful > 0)) throw new Error(file + ' has no successful fresh sources'); }"
 
       - name: Build GitHub Pages assets
         run: npm run build
