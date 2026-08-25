@@ -19,33 +19,33 @@ export const DIMENSION_LABELS = {
 export const DATA_SOURCES = [
   {
     name: 'GitHub API',
-    signal: '开源仓库 Stars、Forks、Issue 压力、最近推送',
+    signal: '每日抓取 Stars、Forks、Issue 压力、最近推送与 24 小时增量',
     url: 'https://docs.github.com/en/rest/repos/repos#get-a-repository',
-    live: false
+    live: true
   },
   {
     name: 'Reddit Public JSON',
-    signal: 'r/LocalLLaMA、r/VisualStudioCode、r/artificial 等讨论热度与情绪',
+    signal: '最近 7 天新帖的讨论量与关键词情绪（接口失败时保留上次有效值）',
     url: 'https://www.reddit.com/dev/api/',
-    live: false
+    live: true
+  },
+  {
+    name: 'Hacker News / Algolia',
+    signal: '最近 30 天相关新帖，用作社区热度的第二个公开信号',
+    url: 'https://hn.algolia.com/api',
+    live: true
   },
   {
     name: 'Open VSX API',
-    signal: '插件下载量与评分，适合 VS Code / OpenVSX 生态工具',
+    signal: '每日抓取插件下载量与评分，适合 VS Code / OpenVSX 生态工具',
     url: 'https://open-vsx.org',
-    live: false
+    live: true
   },
   {
     name: 'VS Code Marketplace',
-    signal: '下载量、评分、安装趋势，建议通过脚本生成快照避免浏览器跨域',
+    signal: '每日由 GitHub Actions 抓取下载量、评分和安装增量',
     url: 'https://marketplace.visualstudio.com/vscode',
-    live: false
-  },
-  {
-    name: 'Artificial Analysis',
-    signal: '模型智力、速度与价格基准，可作为模型层外部校准项',
-    url: 'https://artificialanalysis.ai',
-    live: false
+    live: true
   }
 ];
 
