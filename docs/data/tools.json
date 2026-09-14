@@ -25,28 +25,28 @@
       ]
     },
     "live": {
-      "githubStars": 206983,
-      "githubForks": 27115,
-      "openIssues": 5799,
+      "githubStars": 207214,
+      "githubForks": 27155,
+      "openIssues": 5769,
       "redditSentiment": 82,
       "redditMentions": 28,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "pushedAt": "2026-09-13T05:46:37Z",
-      "updatedAt": "2026-09-13T07:26:31.052Z",
+      "pushedAt": "2026-09-14T07:37:59Z",
+      "updatedAt": "2026-09-14T07:52:09.580Z",
       "hnMentions": 50,
-      "hnSentiment": 89,
-      "hnPositiveHits": 11,
-      "hnNegativeHits": 3,
+      "hnSentiment": 87,
+      "hnPositiveHits": 24,
+      "hnNegativeHits": 6,
       "githubWatchers": 804,
-      "githubUpdatedAt": "2026-09-13T07:13:54Z",
+      "githubUpdatedAt": "2026-09-14T07:48:46Z",
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:31.052Z",
-        "github": "2026-09-13T07:26:31.052Z"
+        "hackerNews": "2026-09-14T07:52:09.580Z",
+        "github": "2026-09-14T07:52:09.580Z"
       },
       "communityMentions": 50,
-      "communitySentiment": 89,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:31.052Z"
+      "communitySentiment": 87,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:09.580Z"
     },
     "dimensions": {
       "intelligence": 88,
@@ -57,12 +57,12 @@
       "community": 93
     },
     "trends": {
-      "githubStarsDelta": 173,
-      "githubForksDelta": 56,
-      "openIssuesDelta": 38,
+      "githubStarsDelta": 231,
+      "githubForksDelta": 40,
+      "openIssuesDelta": -30,
       "marketplaceDownloadsDelta": 0,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:40.734Z"
+      "comparedWith": "2026-09-13T07:26:31.052Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -104,28 +104,28 @@
       ]
     },
     "live": {
-      "githubStars": 106947,
-      "githubForks": 14567,
-      "openIssues": 818,
+      "githubStars": 106970,
+      "githubForks": 14564,
+      "openIssues": 831,
       "redditSentiment": 84,
       "redditMentions": 34,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "pushedAt": "2026-09-13T01:29:26Z",
-      "updatedAt": "2026-09-13T07:26:30.996Z",
-      "hnMentions": 9,
-      "hnSentiment": 82,
+      "pushedAt": "2026-09-14T01:45:57Z",
+      "updatedAt": "2026-09-14T07:52:09.565Z",
+      "hnMentions": 6,
+      "hnSentiment": 81,
       "hnPositiveHits": 6,
       "hnNegativeHits": 2,
       "githubWatchers": 581,
-      "githubUpdatedAt": "2026-09-13T07:10:59Z",
+      "githubUpdatedAt": "2026-09-14T07:41:34Z",
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:30.996Z",
-        "github": "2026-09-13T07:26:30.996Z"
+        "hackerNews": "2026-09-14T07:52:09.565Z",
+        "github": "2026-09-14T07:52:09.565Z"
       },
-      "communityMentions": 9,
-      "communitySentiment": 82,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:30.996Z"
+      "communityMentions": 6,
+      "communitySentiment": 81,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:09.565Z"
     },
     "dimensions": {
       "intelligence": 88,
@@ -136,12 +136,12 @@
       "community": 90
     },
     "trends": {
-      "githubStarsDelta": 16,
-      "githubForksDelta": 9,
-      "openIssuesDelta": 3,
+      "githubStarsDelta": 23,
+      "githubForksDelta": -3,
+      "openIssuesDelta": 13,
       "marketplaceDownloadsDelta": 0,
-      "communityMentionsDelta": 3,
-      "comparedWith": "2026-09-12T07:07:40.583Z"
+      "communityMentionsDelta": -3,
+      "comparedWith": "2026-09-13T07:26:30.996Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -183,28 +183,28 @@
       ]
     },
     "live": {
-      "githubStars": 123697,
-      "githubForks": 19063,
-      "openIssues": 16896,
+      "githubStars": 123961,
+      "githubForks": 19110,
+      "openIssues": 17043,
       "redditSentiment": 86,
       "redditMentions": 38,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "pushedAt": "2026-09-13T06:53:33Z",
-      "updatedAt": "2026-09-13T07:26:31.104Z",
+      "pushedAt": "2026-09-14T04:37:18Z",
+      "updatedAt": "2026-09-14T07:52:09.631Z",
       "hnMentions": 50,
       "hnSentiment": 80,
       "hnPositiveHits": 22,
       "hnNegativeHits": 9,
-      "githubWatchers": 632,
-      "githubUpdatedAt": "2026-09-13T07:25:15Z",
+      "githubWatchers": 635,
+      "githubUpdatedAt": "2026-09-14T07:49:13Z",
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:31.104Z",
-        "github": "2026-09-13T07:26:31.104Z"
+        "hackerNews": "2026-09-14T07:52:09.631Z",
+        "github": "2026-09-14T07:52:09.631Z"
       },
       "communityMentions": 50,
       "communitySentiment": 80,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:31.104Z"
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:09.631Z"
     },
     "dimensions": {
       "intelligence": 93,
@@ -215,12 +215,12 @@
       "community": 92
     },
     "trends": {
-      "githubStarsDelta": 218,
-      "githubForksDelta": 55,
-      "openIssuesDelta": 157,
+      "githubStarsDelta": 264,
+      "githubForksDelta": 47,
+      "openIssuesDelta": 147,
       "marketplaceDownloadsDelta": 0,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:40.638Z"
+      "comparedWith": "2026-09-13T07:26:31.104Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -270,31 +270,31 @@
       ]
     },
     "live": {
-      "githubStars": 67906,
-      "githubForks": 7337,
-      "openIssues": 1298,
+      "githubStars": 67963,
+      "githubForks": 7342,
+      "openIssues": 1299,
       "redditSentiment": 85,
       "redditMentions": 46,
-      "marketplaceDownloads": 5303781,
+      "marketplaceDownloads": 5311770,
       "marketplaceRating": 4.073717948717949,
-      "pushedAt": "2026-09-12T22:59:21Z",
-      "updatedAt": "2026-09-13T07:26:31.082Z",
+      "pushedAt": "2026-09-14T07:31:57Z",
+      "updatedAt": "2026-09-14T07:52:09.639Z",
       "hnMentions": 50,
-      "hnSentiment": 85,
-      "hnPositiveHits": 18,
-      "hnNegativeHits": 6,
-      "githubWatchers": 287,
-      "githubUpdatedAt": "2026-09-13T07:18:17Z",
+      "hnSentiment": 79,
+      "hnPositiveHits": 24,
+      "hnNegativeHits": 10,
+      "githubWatchers": 288,
+      "githubUpdatedAt": "2026-09-14T07:51:09Z",
       "marketplaceRatingCount": 312,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:31.082Z",
-        "github": "2026-09-13T07:26:31.082Z",
-        "openVsx": "2026-09-13T07:26:31.082Z",
-        "vsMarketplace": "2026-09-13T07:26:31.082Z"
+        "hackerNews": "2026-09-14T07:52:09.639Z",
+        "github": "2026-09-14T07:52:09.639Z",
+        "openVsx": "2026-09-14T07:52:09.639Z",
+        "vsMarketplace": "2026-09-14T07:52:09.639Z"
       },
       "communityMentions": 50,
-      "communitySentiment": 85,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:31.082Z"
+      "communitySentiment": 79,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:09.639Z"
     },
     "dimensions": {
       "intelligence": 86,
@@ -305,12 +305,12 @@
       "community": 91
     },
     "trends": {
-      "githubStarsDelta": 42,
+      "githubStarsDelta": 57,
       "githubForksDelta": 5,
-      "openIssuesDelta": 5,
-      "marketplaceDownloadsDelta": 6817,
+      "openIssuesDelta": 1,
+      "marketplaceDownloadsDelta": 7989,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:40.691Z"
+      "comparedWith": "2026-09-13T07:26:31.082Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -360,17 +360,17 @@
       "redditMentions": 58,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "updatedAt": "2026-09-13T07:26:31.525Z",
+      "updatedAt": "2026-09-14T07:52:09.943Z",
       "hnMentions": 50,
       "hnSentiment": 77,
-      "hnPositiveHits": 18,
+      "hnPositiveHits": 19,
       "hnNegativeHits": 10,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:31.525Z"
+        "hackerNews": "2026-09-14T07:52:09.943Z"
       },
       "communityMentions": 50,
       "communitySentiment": 77,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:31.525Z"
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:09.943Z"
     },
     "dimensions": {
       "intelligence": 91,
@@ -386,7 +386,7 @@
       "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 0,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:41.043Z"
+      "comparedWith": "2026-09-13T07:26:31.525Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -427,28 +427,28 @@
       ]
     },
     "live": {
-      "githubStars": 48921,
-      "githubForks": 4942,
-      "openIssues": 1861,
+      "githubStars": 48942,
+      "githubForks": 4946,
+      "openIssues": 1867,
       "redditSentiment": 86,
       "redditMentions": 31,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
       "pushedAt": "2026-05-22T14:02:20Z",
-      "updatedAt": "2026-09-13T07:26:31.497Z",
+      "updatedAt": "2026-09-14T07:52:09.896Z",
       "hnMentions": 50,
       "hnSentiment": 79,
       "hnPositiveHits": 2,
       "hnNegativeHits": 2,
-      "githubWatchers": 265,
-      "githubUpdatedAt": "2026-09-13T06:47:31Z",
+      "githubWatchers": 266,
+      "githubUpdatedAt": "2026-09-14T07:51:22Z",
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:31.497Z",
-        "github": "2026-09-13T07:26:31.497Z"
+        "hackerNews": "2026-09-14T07:52:09.896Z",
+        "github": "2026-09-14T07:52:09.896Z"
       },
       "communityMentions": 50,
       "communitySentiment": 79,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:31.497Z"
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:09.896Z"
     },
     "dimensions": {
       "intelligence": 85,
@@ -459,12 +459,12 @@
       "community": 88
     },
     "trends": {
-      "githubStarsDelta": 8,
-      "githubForksDelta": -4,
-      "openIssuesDelta": 0,
+      "githubStarsDelta": 21,
+      "githubForksDelta": 4,
+      "openIssuesDelta": 6,
       "marketplaceDownloadsDelta": 0,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:41.019Z"
+      "comparedWith": "2026-09-13T07:26:31.497Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -506,28 +506,28 @@
       ]
     },
     "live": {
-      "githubStars": 90171,
-      "githubForks": 10582,
-      "openIssues": 3174,
+      "githubStars": 90205,
+      "githubForks": 10602,
+      "openIssues": 3178,
       "redditSentiment": 82,
       "redditMentions": 22,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "pushedAt": "2026-09-13T07:11:22Z",
-      "updatedAt": "2026-09-13T07:26:31.412Z",
+      "pushedAt": "2026-09-14T07:37:17Z",
+      "updatedAt": "2026-09-14T07:52:09.928Z",
       "hnMentions": 50,
-      "hnSentiment": 85,
-      "hnPositiveHits": 6,
-      "hnNegativeHits": 3,
+      "hnSentiment": 87,
+      "hnPositiveHits": 12,
+      "hnNegativeHits": 4,
       "githubWatchers": 322,
-      "githubUpdatedAt": "2026-09-13T06:55:38Z",
+      "githubUpdatedAt": "2026-09-14T07:37:22Z",
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:31.412Z",
-        "github": "2026-09-13T07:26:31.412Z"
+        "hackerNews": "2026-09-14T07:52:09.928Z",
+        "github": "2026-09-14T07:52:09.928Z"
       },
       "communityMentions": 50,
-      "communitySentiment": 85,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:31.412Z"
+      "communitySentiment": 87,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:09.928Z"
     },
     "dimensions": {
       "intelligence": 80,
@@ -538,12 +538,12 @@
       "community": 88
     },
     "trends": {
-      "githubStarsDelta": 37,
-      "githubForksDelta": 17,
-      "openIssuesDelta": 15,
+      "githubStarsDelta": 34,
+      "githubForksDelta": 20,
+      "openIssuesDelta": 4,
       "marketplaceDownloadsDelta": 0,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:41.032Z"
+      "comparedWith": "2026-09-13T07:26:31.412Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -591,17 +591,17 @@
       "redditMentions": 36,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "updatedAt": "2026-09-13T07:26:31.424Z",
+      "updatedAt": "2026-09-14T07:52:09.868Z",
       "hnMentions": 4,
       "hnSentiment": 93,
       "hnPositiveHits": 4,
       "hnNegativeHits": 0,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:31.424Z"
+        "hackerNews": "2026-09-14T07:52:09.868Z"
       },
       "communityMentions": 4,
       "communitySentiment": 93,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:31.424Z"
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:09.868Z"
     },
     "dimensions": {
       "intelligence": 86,
@@ -617,7 +617,7 @@
       "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 0,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:40.982Z"
+      "comparedWith": "2026-09-13T07:26:31.424Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -666,21 +666,21 @@
       "openIssues": 0,
       "redditSentiment": 74,
       "redditMentions": 55,
-      "marketplaceDownloads": 74561357,
+      "marketplaceDownloads": 74564411,
       "marketplaceRating": 4.081516742706299,
-      "updatedAt": "2026-09-13T07:26:31.946Z",
-      "hnMentions": 34,
-      "hnSentiment": 71,
-      "hnPositiveHits": 16,
-      "hnNegativeHits": 11,
+      "updatedAt": "2026-09-14T07:52:10.184Z",
+      "hnMentions": 30,
+      "hnSentiment": 69,
+      "hnPositiveHits": 10,
+      "hnNegativeHits": 9,
       "marketplaceRatingCount": 1055,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:31.946Z",
-        "vsMarketplace": "2026-09-13T07:26:31.946Z"
+        "hackerNews": "2026-09-14T07:52:10.184Z",
+        "vsMarketplace": "2026-09-14T07:52:10.184Z"
       },
-      "communityMentions": 34,
-      "communitySentiment": 71,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:31.946Z"
+      "communityMentions": 30,
+      "communitySentiment": 69,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:10.184Z"
     },
     "dimensions": {
       "intelligence": 86,
@@ -694,9 +694,9 @@
       "githubStarsDelta": 0,
       "githubForksDelta": 0,
       "openIssuesDelta": 0,
-      "marketplaceDownloadsDelta": 2531,
-      "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:41.451Z"
+      "marketplaceDownloadsDelta": 3054,
+      "communityMentionsDelta": -4,
+      "comparedWith": "2026-09-13T07:26:31.946Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -744,17 +744,17 @@
       "redditMentions": 42,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "updatedAt": "2026-09-13T07:26:31.900Z",
+      "updatedAt": "2026-09-14T07:52:10.198Z",
       "hnMentions": 50,
-      "hnSentiment": 77,
-      "hnPositiveHits": 19,
-      "hnNegativeHits": 10,
+      "hnSentiment": 78,
+      "hnPositiveHits": 17,
+      "hnNegativeHits": 9,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:31.900Z"
+        "hackerNews": "2026-09-14T07:52:10.198Z"
       },
       "communityMentions": 50,
-      "communitySentiment": 77,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:31.900Z"
+      "communitySentiment": 78,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:10.198Z"
     },
     "dimensions": {
       "intelligence": 95,
@@ -770,7 +770,7 @@
       "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 0,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:41.386Z"
+      "comparedWith": "2026-09-13T07:26:31.900Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -819,31 +819,31 @@
       ]
     },
     "live": {
-      "githubStars": 35886,
-      "githubForks": 5375,
-      "openIssues": 962,
+      "githubStars": 35898,
+      "githubForks": 5376,
+      "openIssues": 960,
       "redditSentiment": 82,
       "redditMentions": 24,
-      "marketplaceDownloads": 4129457,
+      "marketplaceDownloads": 4133970,
       "marketplaceRating": 3.2472527027130127,
-      "pushedAt": "2026-09-13T01:09:52Z",
-      "updatedAt": "2026-09-13T07:26:31.880Z",
+      "pushedAt": "2026-09-14T04:33:35Z",
+      "updatedAt": "2026-09-14T07:52:10.260Z",
       "hnMentions": 50,
-      "hnSentiment": 75,
-      "hnPositiveHits": 34,
+      "hnSentiment": 74,
+      "hnPositiveHits": 28,
       "hnNegativeHits": 14,
       "githubWatchers": 173,
-      "githubUpdatedAt": "2026-09-13T06:26:16Z",
+      "githubUpdatedAt": "2026-09-14T05:39:18Z",
       "marketplaceRatingCount": 182,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:31.880Z",
-        "github": "2026-09-13T07:26:31.880Z",
-        "openVsx": "2026-09-13T07:26:31.880Z",
-        "vsMarketplace": "2026-09-13T07:26:31.880Z"
+        "hackerNews": "2026-09-14T07:52:10.260Z",
+        "github": "2026-09-14T07:52:10.260Z",
+        "openVsx": "2026-09-14T07:52:10.260Z",
+        "vsMarketplace": "2026-09-14T07:52:10.260Z"
       },
       "communityMentions": 50,
-      "communitySentiment": 75,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:31.880Z"
+      "communitySentiment": 74,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:10.260Z"
     },
     "dimensions": {
       "intelligence": 81,
@@ -854,12 +854,12 @@
       "community": 86
     },
     "trends": {
-      "githubStarsDelta": 8,
-      "githubForksDelta": 6,
-      "openIssuesDelta": 6,
-      "marketplaceDownloadsDelta": 4794,
+      "githubStarsDelta": 12,
+      "githubForksDelta": 1,
+      "openIssuesDelta": -2,
+      "marketplaceDownloadsDelta": 4513,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:41.350Z"
+      "comparedWith": "2026-09-13T07:26:31.880Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -903,28 +903,28 @@
       ]
     },
     "live": {
-      "githubStars": 24304,
-      "githubForks": 3418,
+      "githubStars": 24303,
+      "githubForks": 3417,
       "openIssues": 1033,
       "redditSentiment": 80,
       "redditMentions": 20,
       "marketplaceDownloads": 0,
       "marketplaceRating": 4.5,
       "pushedAt": "2026-05-15T18:08:47Z",
-      "updatedAt": "2026-09-13T07:26:31.873Z",
-      "hnMentions": 7,
-      "hnSentiment": 83,
-      "hnPositiveHits": 8,
-      "hnNegativeHits": 2,
+      "updatedAt": "2026-09-14T07:52:10.178Z",
+      "hnMentions": 6,
+      "hnSentiment": 77,
+      "hnPositiveHits": 9,
+      "hnNegativeHits": 4,
       "githubWatchers": 149,
-      "githubUpdatedAt": "2026-09-13T06:41:29Z",
+      "githubUpdatedAt": "2026-09-14T01:32:39Z",
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:31.873Z",
-        "github": "2026-09-13T07:26:31.873Z"
+        "hackerNews": "2026-09-14T07:52:10.178Z",
+        "github": "2026-09-14T07:52:10.178Z"
       },
-      "communityMentions": 7,
-      "communitySentiment": 83,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:31.873Z"
+      "communityMentions": 6,
+      "communitySentiment": 77,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:10.178Z"
     },
     "dimensions": {
       "intelligence": 82,
@@ -935,12 +935,12 @@
       "community": 82
     },
     "trends": {
-      "githubStarsDelta": 0,
+      "githubStarsDelta": -1,
       "githubForksDelta": -1,
-      "openIssuesDelta": -1,
+      "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 0,
-      "communityMentionsDelta": 3,
-      "comparedWith": "2026-09-12T07:07:41.287Z"
+      "communityMentionsDelta": -1,
+      "comparedWith": "2026-09-13T07:26:31.873Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -994,22 +994,22 @@
       "openIssues": 0,
       "redditSentiment": 76,
       "redditMentions": 23,
-      "marketplaceDownloads": 3977311,
+      "marketplaceDownloads": 3977317,
       "marketplaceRating": 4.726222991943359,
-      "updatedAt": "2026-09-13T07:26:32.474Z",
-      "hnMentions": 42,
+      "updatedAt": "2026-09-14T07:52:10.559Z",
+      "hnMentions": 43,
       "hnSentiment": 96,
       "hnPositiveHits": 5,
       "hnNegativeHits": 0,
       "marketplaceRatingCount": 1472,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:32.474Z",
-        "openVsx": "2026-09-13T07:26:32.474Z",
-        "vsMarketplace": "2026-09-13T07:26:32.474Z"
+        "hackerNews": "2026-09-14T07:52:10.559Z",
+        "openVsx": "2026-09-14T07:52:10.559Z",
+        "vsMarketplace": "2026-09-14T07:52:10.559Z"
       },
-      "communityMentions": 42,
+      "communityMentions": 43,
       "communitySentiment": 96,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:32.474Z"
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:10.559Z"
     },
     "dimensions": {
       "intelligence": 76,
@@ -1023,9 +1023,9 @@
       "githubStarsDelta": 0,
       "githubForksDelta": 0,
       "openIssuesDelta": 0,
-      "marketplaceDownloadsDelta": 1,
-      "communityMentionsDelta": 13,
-      "comparedWith": "2026-09-12T07:07:41.709Z"
+      "marketplaceDownloadsDelta": 6,
+      "communityMentionsDelta": 1,
+      "comparedWith": "2026-09-13T07:26:32.474Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -1080,22 +1080,22 @@
       "openIssues": 0,
       "redditSentiment": 70,
       "redditMentions": 18,
-      "marketplaceDownloads": 9630724,
+      "marketplaceDownloads": 9631134,
       "marketplaceRating": 4.029315948486328,
-      "updatedAt": "2026-09-13T07:26:32.310Z",
-      "hnMentions": 3,
-      "hnSentiment": 53,
+      "updatedAt": "2026-09-14T07:52:10.672Z",
+      "hnMentions": 2,
+      "hnSentiment": 52,
       "hnPositiveHits": 0,
       "hnNegativeHits": 0,
       "marketplaceRatingCount": 614,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:32.310Z",
-        "openVsx": "2026-09-13T07:26:32.310Z",
-        "vsMarketplace": "2026-09-13T07:26:32.310Z"
+        "hackerNews": "2026-09-14T07:52:10.672Z",
+        "openVsx": "2026-09-14T07:52:10.672Z",
+        "vsMarketplace": "2026-09-14T07:52:10.672Z"
       },
-      "communityMentions": 3,
-      "communitySentiment": 53,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:32.310Z"
+      "communityMentions": 2,
+      "communitySentiment": 52,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:10.672Z"
     },
     "dimensions": {
       "intelligence": 73,
@@ -1109,9 +1109,9 @@
       "githubStarsDelta": 0,
       "githubForksDelta": 0,
       "openIssuesDelta": 0,
-      "marketplaceDownloadsDelta": 348,
-      "communityMentionsDelta": 2,
-      "comparedWith": "2026-09-12T07:07:41.898Z"
+      "marketplaceDownloadsDelta": 410,
+      "communityMentionsDelta": -1,
+      "comparedWith": "2026-09-13T07:26:32.310Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -1163,10 +1163,10 @@
       "openIssues": 973,
       "redditSentiment": 72,
       "redditMentions": 16,
-      "marketplaceDownloads": 1847062,
+      "marketplaceDownloads": 1847307,
       "marketplaceRating": 3.9629628658294678,
       "pushedAt": "2026-09-09T17:04:14Z",
-      "updatedAt": "2026-09-13T07:26:32.492Z",
+      "updatedAt": "2026-09-14T07:52:10.531Z",
       "hnMentions": 0,
       "hnSentiment": 52,
       "hnPositiveHits": 0,
@@ -1175,13 +1175,13 @@
       "githubUpdatedAt": "2026-09-09T15:50:52Z",
       "marketplaceRatingCount": 54,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:32.492Z",
-        "github": "2026-09-13T07:26:32.492Z",
-        "vsMarketplace": "2026-09-13T07:26:32.492Z"
+        "hackerNews": "2026-09-14T07:52:10.531Z",
+        "github": "2026-09-14T07:52:10.531Z",
+        "vsMarketplace": "2026-09-14T07:52:10.531Z"
       },
       "communityMentions": 0,
       "communitySentiment": 52,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:32.492Z"
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:10.531Z"
     },
     "dimensions": {
       "intelligence": 78,
@@ -1195,9 +1195,9 @@
       "githubStarsDelta": 0,
       "githubForksDelta": 0,
       "openIssuesDelta": 0,
-      "marketplaceDownloadsDelta": 416,
+      "marketplaceDownloadsDelta": 245,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:41.751Z"
+      "comparedWith": "2026-09-13T07:26:32.492Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -1253,10 +1253,10 @@
       "openIssues": 43,
       "redditSentiment": 76,
       "redditMentions": 14,
-      "marketplaceDownloads": 886075,
+      "marketplaceDownloads": 886183,
       "marketplaceRating": 3.979865789413452,
       "pushedAt": "2025-08-01T14:31:09Z",
-      "updatedAt": "2026-09-13T07:26:32.474Z",
+      "updatedAt": "2026-09-14T07:52:10.668Z",
       "hnMentions": 0,
       "hnSentiment": 52,
       "hnPositiveHits": 0,
@@ -1265,14 +1265,14 @@
       "githubUpdatedAt": "2026-09-10T10:40:27Z",
       "marketplaceRatingCount": 149,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:32.474Z",
-        "github": "2026-09-13T07:26:32.474Z",
-        "openVsx": "2026-09-13T07:26:32.474Z",
-        "vsMarketplace": "2026-09-13T07:26:32.474Z"
+        "hackerNews": "2026-09-14T07:52:10.668Z",
+        "github": "2026-09-14T07:52:10.668Z",
+        "openVsx": "2026-09-14T07:52:10.668Z",
+        "vsMarketplace": "2026-09-14T07:52:10.668Z"
       },
       "communityMentions": 0,
       "communitySentiment": 52,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:32.474Z"
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:10.668Z"
     },
     "dimensions": {
       "intelligence": 78,
@@ -1284,11 +1284,11 @@
     },
     "trends": {
       "githubStarsDelta": 0,
-      "githubForksDelta": -1,
+      "githubForksDelta": 0,
       "openIssuesDelta": 0,
-      "marketplaceDownloadsDelta": 152,
+      "marketplaceDownloadsDelta": 108,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:41.898Z"
+      "comparedWith": "2026-09-13T07:26:32.474Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -1336,30 +1336,30 @@
       ]
     },
     "live": {
-      "githubStars": 12961,
-      "githubForks": 1835,
-      "openIssues": 109,
+      "githubStars": 12975,
+      "githubForks": 1838,
+      "openIssues": 105,
       "redditSentiment": 78,
       "redditMentions": 10,
-      "marketplaceDownloads": 903065,
+      "marketplaceDownloads": 903250,
       "marketplaceRating": 4.678861618041992,
-      "pushedAt": "2026-09-12T23:03:53Z",
-      "updatedAt": "2026-09-13T07:26:32.909Z",
+      "pushedAt": "2026-09-13T16:40:24Z",
+      "updatedAt": "2026-09-14T07:52:11.119Z",
       "hnMentions": 0,
       "hnSentiment": 52,
       "hnPositiveHits": 0,
       "hnNegativeHits": 0,
       "githubWatchers": 61,
-      "githubUpdatedAt": "2026-09-13T01:20:27Z",
+      "githubUpdatedAt": "2026-09-14T07:11:41Z",
       "marketplaceRatingCount": 492,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:32.909Z",
-        "github": "2026-09-13T07:26:32.909Z",
-        "vsMarketplace": "2026-09-13T07:26:32.909Z"
+        "hackerNews": "2026-09-14T07:52:11.119Z",
+        "github": "2026-09-14T07:52:11.119Z",
+        "vsMarketplace": "2026-09-14T07:52:11.119Z"
       },
       "communityMentions": 0,
       "communitySentiment": 52,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:32.909Z"
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:11.119Z"
     },
     "dimensions": {
       "intelligence": 79,
@@ -1370,12 +1370,12 @@
       "community": 74
     },
     "trends": {
-      "githubStarsDelta": 7,
-      "githubForksDelta": 0,
-      "openIssuesDelta": 17,
-      "marketplaceDownloadsDelta": 135,
+      "githubStarsDelta": 14,
+      "githubForksDelta": 3,
+      "openIssuesDelta": -4,
+      "marketplaceDownloadsDelta": 185,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:42.325Z"
+      "comparedWith": "2026-09-13T07:26:32.909Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -1424,17 +1424,17 @@
       "redditMentions": 12,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "updatedAt": "2026-09-13T07:26:32.757Z",
+      "updatedAt": "2026-09-14T07:52:10.874Z",
       "hnMentions": 5,
       "hnSentiment": 53,
       "hnPositiveHits": 0,
       "hnNegativeHits": 0,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:32.757Z"
+        "hackerNews": "2026-09-14T07:52:10.874Z"
       },
       "communityMentions": 5,
       "communitySentiment": 53,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:32.757Z"
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:10.874Z"
     },
     "dimensions": {
       "intelligence": 82,
@@ -1450,7 +1450,7 @@
       "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 0,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:42.093Z"
+      "comparedWith": "2026-09-13T07:26:32.757Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -1497,17 +1497,17 @@
       "redditMentions": 20,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "updatedAt": "2026-09-13T07:26:32.740Z",
-      "hnMentions": 1,
-      "hnSentiment": 71,
-      "hnPositiveHits": 1,
-      "hnNegativeHits": 1,
+      "updatedAt": "2026-09-14T07:52:10.863Z",
+      "hnMentions": 0,
+      "hnSentiment": 52,
+      "hnPositiveHits": 0,
+      "hnNegativeHits": 0,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:32.740Z"
+        "hackerNews": "2026-09-14T07:52:10.863Z"
       },
-      "communityMentions": 1,
-      "communitySentiment": 71,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:32.740Z"
+      "communityMentions": 0,
+      "communitySentiment": 52,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:10.863Z"
     },
     "dimensions": {
       "intelligence": 80,
@@ -1522,8 +1522,8 @@
       "githubForksDelta": 0,
       "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 0,
-      "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:42.107Z"
+      "communityMentionsDelta": -1,
+      "comparedWith": "2026-09-13T07:26:32.740Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -1570,17 +1570,17 @@
       "redditMentions": 30,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "updatedAt": "2026-09-13T07:26:32.932Z",
+      "updatedAt": "2026-09-14T07:52:10.981Z",
       "hnMentions": 50,
-      "hnSentiment": 76,
-      "hnPositiveHits": 29,
-      "hnNegativeHits": 13,
+      "hnSentiment": 75,
+      "hnPositiveHits": 41,
+      "hnNegativeHits": 15,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:32.932Z"
+        "hackerNews": "2026-09-14T07:52:10.981Z"
       },
       "communityMentions": 50,
-      "communitySentiment": 76,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:32.932Z"
+      "communitySentiment": 75,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:10.981Z"
     },
     "dimensions": {
       "intelligence": 85,
@@ -1596,7 +1596,7 @@
       "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 0,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:42.245Z"
+      "comparedWith": "2026-09-13T07:26:32.932Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -1641,29 +1641,29 @@
       ]
     },
     "live": {
-      "githubStars": 33876,
+      "githubStars": 33882,
       "githubForks": 1785,
       "openIssues": 336,
       "redditSentiment": 79,
       "redditMentions": 14,
-      "marketplaceDownloads": 38316,
+      "marketplaceDownloads": 38338,
       "marketplaceRating": 5,
       "pushedAt": "2026-06-30T20:38:02Z",
-      "updatedAt": "2026-09-13T07:26:33.175Z",
-      "hnMentions": 7,
+      "updatedAt": "2026-09-14T07:52:11.409Z",
+      "hnMentions": 6,
       "hnSentiment": 82,
       "hnPositiveHits": 3,
       "hnNegativeHits": 1,
       "githubWatchers": 187,
-      "githubUpdatedAt": "2026-09-13T00:34:36Z",
+      "githubUpdatedAt": "2026-09-14T05:23:52Z",
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:33.175Z",
-        "github": "2026-09-13T07:26:33.175Z",
-        "openVsx": "2026-09-13T07:26:33.175Z"
+        "hackerNews": "2026-09-14T07:52:11.409Z",
+        "github": "2026-09-14T07:52:11.409Z",
+        "openVsx": "2026-09-14T07:52:11.409Z"
       },
-      "communityMentions": 7,
+      "communityMentions": 6,
       "communitySentiment": 82,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:33.175Z"
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:11.409Z"
     },
     "dimensions": {
       "intelligence": 74,
@@ -1674,12 +1674,12 @@
       "community": 80
     },
     "trends": {
-      "githubStarsDelta": 4,
+      "githubStarsDelta": 6,
       "githubForksDelta": 0,
-      "openIssuesDelta": 1,
+      "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 22,
-      "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:42.626Z"
+      "communityMentionsDelta": -1,
+      "comparedWith": "2026-09-13T07:26:33.175Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -1722,28 +1722,28 @@
       ]
     },
     "live": {
-      "githubStars": 28801,
-      "githubForks": 2650,
+      "githubStars": 28800,
+      "githubForks": 2651,
       "openIssues": 306,
       "redditSentiment": 78,
       "redditMentions": 12,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
       "pushedAt": "2026-06-02T22:03:55Z",
-      "updatedAt": "2026-09-13T07:26:33.217Z",
+      "updatedAt": "2026-09-14T07:52:11.395Z",
       "hnMentions": 50,
-      "hnSentiment": 79,
-      "hnPositiveHits": 2,
+      "hnSentiment": 72,
+      "hnPositiveHits": 1,
       "hnNegativeHits": 2,
       "githubWatchers": 165,
-      "githubUpdatedAt": "2026-09-12T21:15:40Z",
+      "githubUpdatedAt": "2026-09-13T20:29:53Z",
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:33.217Z",
-        "github": "2026-09-13T07:26:33.217Z"
+        "hackerNews": "2026-09-14T07:52:11.395Z",
+        "github": "2026-09-14T07:52:11.395Z"
       },
       "communityMentions": 50,
-      "communitySentiment": 79,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:33.217Z"
+      "communitySentiment": 72,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:11.395Z"
     },
     "dimensions": {
       "intelligence": 77,
@@ -1754,12 +1754,12 @@
       "community": 79
     },
     "trends": {
-      "githubStarsDelta": 2,
-      "githubForksDelta": 2,
+      "githubStarsDelta": -1,
+      "githubForksDelta": 1,
       "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 0,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:42.621Z"
+      "comparedWith": "2026-09-13T07:26:33.217Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -1809,7 +1809,7 @@
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
       "pushedAt": "2025-05-20T13:40:04Z",
-      "updatedAt": "2026-09-13T07:26:33.215Z",
+      "updatedAt": "2026-09-14T07:52:11.399Z",
       "hnMentions": 2,
       "hnSentiment": 52,
       "hnPositiveHits": 0,
@@ -1817,12 +1817,12 @@
       "githubWatchers": 7,
       "githubUpdatedAt": "2026-09-11T06:33:47Z",
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:33.215Z",
-        "github": "2026-09-13T07:26:33.215Z"
+        "hackerNews": "2026-09-14T07:52:11.399Z",
+        "github": "2026-09-14T07:52:11.399Z"
       },
       "communityMentions": 2,
       "communitySentiment": 52,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:33.215Z"
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:11.399Z"
     },
     "dimensions": {
       "intelligence": 72,
@@ -1835,10 +1835,10 @@
     "trends": {
       "githubStarsDelta": 0,
       "githubForksDelta": 0,
-      "openIssuesDelta": 1,
+      "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 0,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:42.624Z"
+      "comparedWith": "2026-09-13T07:26:33.215Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -1888,21 +1888,21 @@
       "openIssues": 0,
       "redditSentiment": 82,
       "redditMentions": 16,
-      "marketplaceDownloads": 412386,
+      "marketplaceDownloads": 412568,
       "marketplaceRating": 3.7555556297302246,
-      "updatedAt": "2026-09-13T07:26:33.165Z",
-      "hnMentions": 3,
-      "hnSentiment": 53,
+      "updatedAt": "2026-09-14T07:52:11.328Z",
+      "hnMentions": 2,
+      "hnSentiment": 52,
       "hnPositiveHits": 0,
       "hnNegativeHits": 0,
       "marketplaceRatingCount": 45,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:33.165Z",
-        "vsMarketplace": "2026-09-13T07:26:33.165Z"
+        "hackerNews": "2026-09-14T07:52:11.328Z",
+        "vsMarketplace": "2026-09-14T07:52:11.328Z"
       },
-      "communityMentions": 3,
-      "communitySentiment": 53,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:33.165Z"
+      "communityMentions": 2,
+      "communitySentiment": 52,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:11.328Z"
     },
     "dimensions": {
       "intelligence": 76,
@@ -1916,9 +1916,9 @@
       "githubStarsDelta": 0,
       "githubForksDelta": 0,
       "openIssuesDelta": 0,
-      "marketplaceDownloadsDelta": 166,
-      "communityMentionsDelta": 3,
-      "comparedWith": "2026-09-12T07:07:42.528Z"
+      "marketplaceDownloadsDelta": 182,
+      "communityMentionsDelta": -1,
+      "comparedWith": "2026-09-13T07:26:33.165Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -1966,17 +1966,17 @@
       "redditMentions": 18,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "updatedAt": "2026-09-13T07:26:33.557Z",
+      "updatedAt": "2026-09-14T07:52:11.708Z",
       "hnMentions": 50,
       "hnSentiment": 89,
-      "hnPositiveHits": 16,
+      "hnPositiveHits": 15,
       "hnNegativeHits": 4,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:33.557Z"
+        "hackerNews": "2026-09-14T07:52:11.708Z"
       },
       "communityMentions": 50,
       "communitySentiment": 89,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:33.557Z"
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:11.708Z"
     },
     "dimensions": {
       "intelligence": 81,
@@ -1992,7 +1992,7 @@
       "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 0,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:42.891Z"
+      "comparedWith": "2026-09-13T07:26:33.557Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -2039,17 +2039,17 @@
       "redditMentions": 11,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "updatedAt": "2026-09-13T07:26:33.547Z",
+      "updatedAt": "2026-09-14T07:52:11.712Z",
       "hnMentions": 50,
-      "hnSentiment": 71,
-      "hnPositiveHits": 4,
-      "hnNegativeHits": 6,
+      "hnSentiment": 89,
+      "hnPositiveHits": 24,
+      "hnNegativeHits": 5,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:33.547Z"
+        "hackerNews": "2026-09-14T07:52:11.712Z"
       },
       "communityMentions": 50,
-      "communitySentiment": 71,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:33.547Z"
+      "communitySentiment": 89,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:11.712Z"
     },
     "dimensions": {
       "intelligence": 78,
@@ -2065,7 +2065,7 @@
       "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 0,
       "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:42.902Z"
+      "comparedWith": "2026-09-13T07:26:33.547Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -2112,17 +2112,17 @@
       "redditMentions": 12,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "updatedAt": "2026-09-13T07:26:33.538Z",
-      "hnMentions": 25,
-      "hnSentiment": 71,
-      "hnPositiveHits": 13,
-      "hnNegativeHits": 9,
+      "updatedAt": "2026-09-14T07:52:11.697Z",
+      "hnMentions": 14,
+      "hnSentiment": 70,
+      "hnPositiveHits": 7,
+      "hnNegativeHits": 6,
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:33.538Z"
+        "hackerNews": "2026-09-14T07:52:11.697Z"
       },
-      "communityMentions": 25,
-      "communitySentiment": 71,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:33.538Z"
+      "communityMentions": 14,
+      "communitySentiment": 70,
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:11.697Z"
     },
     "dimensions": {
       "intelligence": 84,
@@ -2137,8 +2137,8 @@
       "githubForksDelta": 0,
       "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 0,
-      "communityMentionsDelta": 14,
-      "comparedWith": "2026-09-12T07:07:42.915Z"
+      "communityMentionsDelta": -11,
+      "comparedWith": "2026-09-13T07:26:33.538Z"
     },
     "sourceStatus": {
       "reddit": "error",
@@ -2179,28 +2179,28 @@
       ]
     },
     "live": {
-      "githubStars": 54179,
-      "githubForks": 6225,
+      "githubStars": 54240,
+      "githubForks": 6228,
       "openIssues": 333,
       "redditSentiment": 80,
       "redditMentions": 10,
       "marketplaceDownloads": 0,
       "marketplaceRating": 0,
-      "pushedAt": "2026-09-11T21:32:04Z",
-      "updatedAt": "2026-09-13T07:26:33.693Z",
-      "hnMentions": 24,
+      "pushedAt": "2026-09-14T04:35:07Z",
+      "updatedAt": "2026-09-14T07:52:11.828Z",
+      "hnMentions": 25,
       "hnSentiment": 90,
       "hnPositiveHits": 6,
       "hnNegativeHits": 1,
       "githubWatchers": 297,
-      "githubUpdatedAt": "2026-09-13T06:25:29Z",
+      "githubUpdatedAt": "2026-09-14T07:42:40Z",
       "sourceUpdatedAt": {
-        "hackerNews": "2026-09-13T07:26:33.693Z",
-        "github": "2026-09-13T07:26:33.693Z"
+        "hackerNews": "2026-09-14T07:52:11.828Z",
+        "github": "2026-09-14T07:52:11.828Z"
       },
-      "communityMentions": 24,
+      "communityMentions": 25,
       "communitySentiment": 90,
-      "lastSuccessfulUpdateAt": "2026-09-13T07:26:33.693Z"
+      "lastSuccessfulUpdateAt": "2026-09-14T07:52:11.828Z"
     },
     "dimensions": {
       "intelligence": 78,
@@ -2211,12 +2211,12 @@
       "community": 78
     },
     "trends": {
-      "githubStarsDelta": 34,
+      "githubStarsDelta": 61,
       "githubForksDelta": 3,
-      "openIssuesDelta": 5,
+      "openIssuesDelta": 0,
       "marketplaceDownloadsDelta": 0,
-      "communityMentionsDelta": 0,
-      "comparedWith": "2026-09-12T07:07:43.039Z"
+      "communityMentionsDelta": 1,
+      "comparedWith": "2026-09-13T07:26:33.693Z"
     },
     "sourceStatus": {
       "reddit": "error",
